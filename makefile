@@ -15,7 +15,7 @@ install-utils:
 	sudo apt-get install -y chromium-browser atom 
 
 install-python:
-	sudo apt-get install -y python-pip python-virtualenv 
+	sudo apt-get install -y python-pip python-virtualenv ipython 
 	sudo pip install requests httpie
 
 install-apps:
