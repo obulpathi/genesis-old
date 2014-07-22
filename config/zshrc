@@ -19,15 +19,8 @@ compinit
 # PS1='%1c # '
 PS1='%m@%1c # '
 
-# security 
-# umask 077
-
-# spelling options 
-# setopt correctall
-# alias mv='nocorrect mv'       # no spelling correction on mv
-# alias rm='nocorrect rm'       # no spelling correction on mv
-# alias cp='nocorrect cp'       # no spelling correction on cp
-# alias mkdir='nocorrect mkdir' # no spelling correction on mkdir
+# shortcut remapping
+stty intr ^K
 
 # command aliases
 alias la='ls -A'

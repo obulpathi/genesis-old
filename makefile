@@ -18,6 +18,9 @@ install-python:
 	sudo apt-get install -y python-pip python-virtualenv 
 	sudo pip install requests httpie
 
+install-apps:
+	sudo pip install shutter meld chromium-browser
+
 configure:
 	cp config/zshrc ~/.zshrc
 	cp config/bashrc ~/.bashrc
